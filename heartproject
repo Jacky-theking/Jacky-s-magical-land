@@ -1,0 +1,18 @@
+# my heart project
+
+a = "*"
+
+answer = int(input(("which one of the following description about Jacky is accurate? \n1 stupid\n2 silly\n3 not very smart\n4 fun and romantic and handsome and he is the best ")))
+
+while answer !=int( 4) :
+          print ("wrong you silly goose try again\n")
+          answer = int((input("which one of the following description about Jacky is accurate? \nA stupid\nB silly\nC not very smart\nD fun and romantic and handsome and he is the best ")))
+
+for i in range(0,1):
+          print(" "*2,a,a," "*2,a,a)
+          print(a," "*5,a," "*5,a)
+          print(a," "*14,a)
+          print(" "*2,a," "*7,a)
+          print(" "*7,a)
+          print("yes yes you are correct")
+          exit()
